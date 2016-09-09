@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background: #000; 
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+    background: url('poster.jpg') no-repeat;
+    background-size: cover;
+}
+
+.myHeadline { 
+    font-family: 'Bungee Shade', cursive, Times;
+    font-weight:100; 
+    color: black;
+    margin: none;
+    padding-top: 0;
+    font-size: 90px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.myIcons {
+    color: #d9d9d9;
+    margin: none;
+    padding: none;
+    position: fixed; /* key to responsive icons */
+    bottom: 0; /* key to responsive icons */
+    letter-spacing: 5px;
+}
+
+a { 
+    color: inherit; 
+}
+
+a:hover {
+    color: white;
+}
+
+@media (max-width: 600px) { 
+    .myHeadline {
+        font-size: 60px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 415px) { 
+    .myHeadline {
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-device-width: 800px) {
+    html { background: url('poster.jpg') #000 no-repeat center center fixed; }
+    #bgvid { display: none; }
+}
