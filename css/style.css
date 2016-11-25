@@ -11,7 +11,7 @@ video {
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -100;
+    z-index: -100; /*puts video in background*/
     -webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
     background: url('poster.jpg') no-repeat;
@@ -30,6 +30,7 @@ video {
 }
 
 .myIcons {
+
     color: #d9d9d9;
     margin: none;
     padding: none;
