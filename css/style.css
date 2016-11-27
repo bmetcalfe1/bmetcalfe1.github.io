@@ -1,6 +1,5 @@
 body {
-    margin: 0;
-    background: #000; 
+    margin: 0; 
 }
 
 video { 
@@ -30,7 +29,6 @@ video {
 }
 
 .myIcons {
-
     color: #d9d9d9;
     margin: none;
     padding: none;
@@ -62,6 +60,10 @@ a:hover {
 }
 
 @media screen and (max-device-width: 800px) {
-    html { background: url('poster.jpg') #000 no-repeat center center fixed; }
-    #bgvid { display: none; }
+    html { 
+        background: url('poster.jpg') #000 no-repeat center center fixed; 
+    }
+    #bgvid { 
+        display: none; 
+    }
 }
